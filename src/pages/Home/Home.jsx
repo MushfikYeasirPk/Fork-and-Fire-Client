@@ -26,7 +26,7 @@ const Home = () => {
 
         <div className='flex justify-end pr-5 '>
           <img className='p-2 border-2 border-orange-700'
-            src="https://themewant.com/products/html/dinenos/assets/images/banner/slider2.webp"
+            src="https://i.ibb.co/GHHWzKy/slider2.webp"
             alt="Moving Image"
             style={{
               borderRadius: '50%',
