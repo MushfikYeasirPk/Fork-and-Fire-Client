@@ -7,7 +7,7 @@ import { FaShoppingCart } from 'react-icons/fa';
 import useCart from '../../Custom Hooks/useCart';
 
 const Header = () => {
-    const logo = '{Our Solve}'
+    const logo = 'Fork & Fire'
     const mode = JSON.parse(localStorage.getItem("dark-mode"))
     const [dark, setDark] = useState(false)
 
