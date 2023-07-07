@@ -24,42 +24,42 @@ const Achievement = () => {
                     </div>
                     
                 </div>
-                <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 container mx-auto lg:h-48 sm:h-72 items-center pb-28">
-                    <div className="flex items-center justify-center border border-gray-400 py-3 rounded-xl mx-5 mb-2">
+                <div className="grid lg:grid-cols-5 md:grid-cols-2 sm:grid-cols-1 container mx-auto lg:h-48 sm:h-72 items-center pb-28">
+                    <div className="flex flex-col items-center justify-center border border-gray-400 py-3 rounded-xl mx-5  mb-2 hover:text-orange-700">
                         
-                        <span className="text-3xl text-white font-black ml-3">
+                        <span className="text-3xl text-white font-black ml-3 hover:text-orange-700">
                             <CountUp start={0} end={10} duration={3.75} suffix={"+ "} />
                         </span>
-                        <span className=" text-gray-300 text-2xl ml-3"> Award Own</span>
+                        <span className=" text-gray-300 text-2xl ml-3 hover:text-orange-700"> Award Own</span>
                     </div>
-                    <div className="flex items-center justify-center border border-gray-400 py-3 rounded-xl mx-5 mb-2">
+                    <div className="flex flex-col items-center justify-center border border-gray-400 py-3 rounded-xl mx-5 mb-2">
                    
-                        <span className="text-3xl text-white font-black ml-3">
+                        <span className="text-3xl text-white font-black ml-3 hover:text-orange-700">
                             <CountUp start={0} end={5000} duration={3.75} suffix={"+"} />
                         </span>
-                        <span className="text-xl text-gray-300 ml-3">  Daily Orders </span>
+                        <span className="text-xl text-gray-300 ml-3 hover:text-orange-700">  Daily Orders </span>
                     </div>
-                    <div className="flex items-center justify-center border border-gray-400 py-3 rounded-xl mx-5 mb-2">
+                    <div className="flex flex-col items-center justify-center border border-gray-400 py-3 rounded-xl mx-5 mb-2">
                        
-                        <span className="text-3xl text-white font-black ml-3">
+                        <span className="text-3xl text-white font-black ml-3 hover:text-orange-700">
                             <CountUp start={0} end={99} duration={3.75} suffix={"+"} />
                         </span>
-                        <span className="text-xl text-gray-300 ml-3">  Members </span>
+                        <span className="text-xl text-gray-300 ml-3 hover:text-orange-700">  Members </span>
                     </div>
-                    <div className="flex items-center justify-center border border-gray-400 py-3 rounded-xl mx-5 mb-2">
+                    <div className="flex flex-col items-center justify-center border border-gray-400 py-3 rounded-xl mx-5 mb-2">
                       
-                        <span className="text-3xl text-white font-black ml-3">
+                        <span className="text-3xl text-white font-black ml-3 hover:text-orange-700">
                             <CountUp start={0} end={100} duration={3.75} suffix={"+"} />
                         </span>
-                        <span className="text-xl text-gray-300 ml-3">  Menu & Dish </span>
+                        <span className="text-xl text-gray-300 ml-3 hover:text-orange-700">  Menu & Dish </span>
                     </div>
-                    <div className="flex items-center justify-center border border-gray-400 py-3 rounded-xl mx-5 mb-2">
+                    <div className="flex flex-col items-center justify-center border border-gray-400 py-3 rounded-xl mx-5 mb-2">
                         
                       
-                        <span className="text-3xl text-white font-black ml-3">
+                        <span className="text-3xl text-white font-black ml-3 hover:text-orange-700">
                             <CountUp start={0} end={100} duration={3.75} suffix={"+"} />
                         </span>
-                        <span className="text-xl text-gray-300 ml-3">  Specialities  </span>
+                        <span className="text-xl text-gray-300 ml-3 hover:text-orange-700">  Specialities  </span>
                     </div>
                 </div>
             </div>
