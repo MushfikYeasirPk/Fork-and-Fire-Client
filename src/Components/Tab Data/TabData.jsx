@@ -5,7 +5,7 @@ function TabData() {
   return (
    <>
     <Tabs>
-    <TabList>
+    <TabList className='flex items-center justify-center gap-10'>
       <Tab>All Menu</Tab>
       <Tab>Breakfast</Tab>
       <Tab>Lunch</Tab>
