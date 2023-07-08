@@ -18,3 +18,19 @@ in this page about of this website was shown
 *Live website Link*
 
 [Lets go to live website](https://dfordelish-fforfood.web.app/)
+
+
+```shell
+useEffect(() => {
+    const movePicture = () => {
+      setIsMoving(true);
+      setTimeout(() => {
+        setIsMoving(false);
+      }, 1000); // Return to original position after 3 seconds
+    };
+
+    const interval = setInterval(movePicture, 3000); // Move picture every 6 seconds
+
+    return () => clearInterval(interval);
+  }, []);
+```shell
